@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Rubik", sans-serif;
 }
 .container{
     max-width: 1920px;
@@ -30,6 +32,16 @@
     border: none;
     border-radius: 30px;
     background-color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn_login:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.btn_login:active{
+    background-color: yellowgreen;
+    color: white;
 }
 .navbar{
     display: flex;
