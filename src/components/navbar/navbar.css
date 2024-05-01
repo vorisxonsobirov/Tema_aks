@@ -32,6 +32,16 @@
     border: none;
     border-radius: 30px;
     background-color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn_login:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.btn_login:active{
+    background-color: yellowgreen;
+    color: white;
 }
 .navbar{
     display: flex;
