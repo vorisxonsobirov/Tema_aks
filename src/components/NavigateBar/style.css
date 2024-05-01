@@ -1,0 +1,20 @@
+.Bar{
+    color: white;
+    width: 20%;
+    height: 100%;
+    background-color: #1B1B1B;
+}
+.Bar ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.Bar li:nth-child(1){
+    background: #ffffff45;
+    
+}
+.Bar li{
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+}
